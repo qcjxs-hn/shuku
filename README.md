@@ -18,37 +18,60 @@
 ### （8）后台管理模块
    后台管理模块，有两种不同风格的后台管理页面，访问后台管理网页地址，使用给定的账户登录系统后即可进入后台管理页。第一个后台管理模块具有用户管理、上传管理、头像管理、反馈处理、等级管理、书籍管理、书籍类型管理七个功能，第二个后台管理模块具有书籍管理、用户管理和反馈处理三个功能。  
 ## 流程图	:brain::monocle_face:
-
-#### 图1.2.1 分类功能及其结构
+![flow_chart](./shukurendering/flow_chart.png)
+##### 图1.2.1 分类功能及其结构
 在开发过程中，需要确定项目中的实体类对象，在根据实体类之间的关系创建数据库表，并确定好实体类对象的关系模型图，直观的显示出实体于属性之间的关系。下图只展示主要的两个实体E-R设计图
-#### 图 1.2.2 书籍实体E-R设计图
-#### 图 1.2.3 书籍分类实体E-R设计图
+![e-r](./shukurendering/E_R1.png)
+##### 图 1.2.2 书籍实体E-R设计图
+![e-r2](./shukurendering/E_R2.png)
+##### 图 1.2.3 书籍分类实体E-R设计图
 ## 数据库设计:confused:
-图1.3.1 user(用户)表结构图
-图1.3.2 upload(上传)表结构图
-图1.3.3 feedback(反馈)表结构图
-图1.3.4 contribution(等级)表结构图
-图1.3.5 book_type(书籍类型)表结构图
-图1.3.6 book(书籍)表结构图
-图1.3.7 avatar(头像)表结构图
+![usertable](./shukurendering/usertable.png)
+##### 图1.3.1 user(用户)表结构图
+![uploadtable](./shukurendering/uploadtable.png)
+##### 图1.3.2 upload(上传)表结构图
+![feedbacktable](./shukurendering/feedbacktable.png)
+##### 图1.3.3 feedback(反馈)表结构图
+![contributiontable](./shukurendering/contributiontable.png)
+##### 图1.3.4 contribution(等级)表结构图
+![book_typetable](./shukurendering/book_typetable.png)
+##### 图1.3.5 book_type(书籍类型)表结构图
+![booktable](./shukurendering/booktable.png)
+##### 图1.3.6 book(书籍)表结构图
+![avatartable](./shukurendering/avatartable.png)
+##### 图1.3.7 avatar(头像)表结构图
 ## 程序运行结果:eyes::eyes:
 ### 主站：
-图1.4.1未登录主页面
-图1.4.2登录界面
-图1.4.3-1.4.4用户信息栏
-图1.4.5-1.4.7登录和注册弹窗
-图1.4.8书籍详情
-图1.4.9书籍分类页
-图1.4.10搜索页
-图1.4.11个人信息页
-图1.4.12修改头像页
-图1.4.13修改密码页
+![no_logo](./shukurendering/no_logo.png)
+##### 图1.4.1未登录主页面
+![logo](./shukurendering/logo.png)
+##### 图1.4.2登录界面
+![user_info](./shukurendering/user_info.png) &nbsp;   ![user_info2](./shukurendering/user_info2.png)
+##### 图1.4.3-1.4.4用户信息栏
+![dialogdl](./shukurendering/dialogdl.png) &nbsp;![dialog2](./shukurendering/dialog2.png)  &nbsp;![dialogzc](./shukurendering/dialogzc.png) 
+##### 图1.4.5-1.4.7登录和注册弹窗
+![book_details](./shukurendering/book_details.png)
+##### 图1.4.8书籍详情
+![book_class](./shukurendering/book_class.png)
+##### 图1.4.9书籍分类页
+![search](./shukurendering/search.png)
+##### 图1.4.10搜索页
+![personal_info](./shukurendering/personal_info.png)
+##### 图1.4.11个人信息页
+![modify](./shukurendering/modify.png)
+##### 图1.4.12修改头像页
+![modify2](./shukurendering/modify2.png)
+##### 图1.4.13修改密码页
 ### 后台1：
-图1.4.14后台登录页
-图1.4.15后台
+![backstage_logo](./shukurendering/backstage_logo.png)
+##### 图1.4.14后台登录页
+![backstage](./shukurendering/backstage.png)
+##### 图1.4.15后台
 ### 后台2：
-图1.4.16后台登录
-图1.4.17后台
+![backstage_logo2](./shukurendering/backstage_logo2.png)
+##### 图1.4.16后台登录
+![backstage1](./shukurendering/backstage1.png)
+##### 图1.4.17后台
 ## 设计总结:writing_hand::v::clap:
 #### 1.技术栈选择：
 使用Vue框架作为前端技术栈，能够构建现代化的、响应式的单页应用，提供更好的用户体验和开发效率。
