@@ -65,12 +65,12 @@
 ### 后台1：
 ![backstage_logo](./shukurendering/backstage_logo.png)
 ##### 图1.4.14后台登录页
-![backstage](./shukurendering/backstage.png)
+![backstage1](./shukurendering/baskstage1.png)
 ##### 图1.4.15后台
 ### 后台2：
 ![backstage_logo2](./shukurendering/backstage_logo2.png)
 ##### 图1.4.16后台登录
-![backstage1](./shukurendering/backstage1.png)
+![backstage2](./shukurendering/backstage2.png)
 ##### 图1.4.17后台
 ## 设计总结:writing_hand::v::clap:
 #### 1.技术栈选择：
