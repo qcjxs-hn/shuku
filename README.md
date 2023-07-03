@@ -1,5 +1,5 @@
 # 书酷网:wink:
-## 项目文件夹构成
+## 项目文件夹构成::scroll::blush::yum:
 ### 前台网站：javaeeproj
 ### 后台前后端分离：
 #### —————前端：shukuglym
