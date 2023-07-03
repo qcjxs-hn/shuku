@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="com.shuku.dao.BookTypeDao">
+
+    <resultMap id="bookTypeMap" type="com.shuku.entity.BookType">
+        <id column="id" property="id" />
+        <result column="booklargetype" property="booklargetype" />
+        <result column="booksmalltype" property="booksmalltype" />
+        <result column="largetypename" property="largetypename" />
+        <result column="smalltypename" property="smalltypename" />
+    </resultMap>
+
+    <sql id="bookType_columns">
+        id, booklargetype, booksmalltype, largetypename, smalltypename
+    </sql>
+
+    <select id="queryById" parameterType="int" resultMap="bookTypeMap">
+        SELECT id, booklargetype, booksmalltype,
+          largetypename, smalltypename FROM book_type WHERE id=#{id}
+    </select>
+
+    <select id="queryByLargeTypeName" parameterType="String" resultMap="bookTypeMap">
+        SELECT
+        <include refid="bookType_columns" />
+        FROM book_type WHERE largetypename=#{larTypeName}
+    </select>
+
+
+
+
+
+</mapper>
