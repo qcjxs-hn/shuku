@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Proxy Example</title>
+</head>
+<body>
+<button onclick="sendProxyRequest()">发送代理请求</button>
+<script>
+    import axiosInstance from './axiosInstance';
+    function sendProxyRequest() {
+// 发送跨域请求
+        axiosInstance.get('/login')
+            .then(response => {
+                console.log('响应:', response.data);
+            })
+            .catch(error => {
+                console.error('请求错误:', error);
+            });
+    }
+</script>
+</body>
+</html>
